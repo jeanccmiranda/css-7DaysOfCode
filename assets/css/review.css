@@ -1,0 +1,53 @@
+.review{display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto 96px;
+    padding: 64px;
+    gap: 16px;
+    background-color: var(--background-color);
+    border-radius: 16px;
+}
+
+.review__header{
+    color: var(--red);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.review__title{
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    
+}
+
+.review__author{
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+    gap: 4px;
+}
+
+.author__img{
+    padding-bottom: 16px;
+}
+
+.author__header{
+    color: var(--title-color);
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.author__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}

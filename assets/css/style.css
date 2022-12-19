@@ -1,0 +1,20 @@
+@import url(../css/header.css);
+@import url(../css/about.css);
+@import url(../css/main.css);
+@import url(../css/review.css);
+@import url(../css/footer.css);
+
+:root{
+    --red: #8E2424;;
+    --title-color:  #101828;
+    --text-color: #667085;
+    --background-color: rgba(196, 25, 25, 0.03);
+    --footer-background-color: #F9FAFB;
+}
+
+body {
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: var(--text-color);
+}
